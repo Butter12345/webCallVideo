@@ -1,0 +1,12 @@
+.Menu{
+    height: 100%;
+    background-color: #FB7116;
+    width: 28%;
+    position: absolute; 
+    left: 0;
+    top:0;
+}
+
+.Menu ul{
+    list-style: none;
+}

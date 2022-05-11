@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-600 
+    focus:border-transparent focus:outline-none
+    placeholder-gray-400 text-base shadow-sm text-gray-700;
+}
+
+.input.error {
+    @apply border-2 border-red-500;
+}
+
+.error {
+    @apply text-red-500 font-semibold;
+}
+
+.btn {
+    @apply w-full text-white px-4 py-2 bg-orange-500 hover:bg-orange-600
+    focus:ring-orange-500 transition ease-in text-center text-base font-semibold
+    shadow-md rounded-lg focus:outline-none
+    ;
+}
+
+.outline {
+    @apply w-full text-orange-500 px-4 py-2 bg-white border-orange-500 font-semibold
+    shadow-md rounded-lg transition ease-in text-center text-base focus:outline-none hover:bg-orange-500
+    hover:text-white;
+}
+
+.btn:disabled {
+    @apply bg-gray-500;
+}

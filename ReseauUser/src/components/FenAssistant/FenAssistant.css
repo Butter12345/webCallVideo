@@ -1,0 +1,26 @@
+.FenAssistant{
+    box-shadow: -4px -4px 10px rgba(0, 0, 0, .5);
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+    border: 2px solid #FB7116;
+    width: 100%;
+    height: 90%;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.FenAssistant .Closed{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    content: '';
+    color: #FB7116;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.FenAssistant h2{
+    font-size: 32px;
+    text-align: center;
+}

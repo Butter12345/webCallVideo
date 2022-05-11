@@ -1,0 +1,13 @@
+.Accueil{
+    width: 71.5%;
+    height: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    overflow-x:auto ;
+    right: 0;
+    top:3%;
+}

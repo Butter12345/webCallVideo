@@ -1,0 +1,28 @@
+.Notifications{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FB7116;
+    height: 35px;
+    align-items: center;
+    padding: 10px;
+    font-size:25px;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+.Notifications i{
+    background-color: #FB7116;
+    color: white;
+    border: 5px solid white;
+    border-radius:50px;
+    padding: 5px;
+}
+
+.Notifications i:last-child{
+    cursor: pointer;
+}
+
+.Notifications i:last-child:hover{
+    transform: scale(1.2);
+}

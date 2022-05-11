@@ -1,0 +1,12 @@
+.FenContacts{
+    width: 71.5%;
+    height: 97%;
+    display: flex;
+    justify-content: space-evenly start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top:3%;
+}

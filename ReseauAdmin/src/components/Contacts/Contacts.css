@@ -1,0 +1,49 @@
+.BarContact{
+    border: #FB7116 2px solid;
+    color: #FB7116;
+    background-color: white;
+    font-family: Verdana;
+    text-align: center;
+    width: 118px;
+    height: 140px;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.BarContact .user{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80%;
+    background-color: #FB7116;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BarContact .user i{
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+.btnContact{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 20%;
+    background-color: white;
+    color: #FB7116;
+    border: none;
+    cursor: pointer;
+}
+
+.btnContact:hover{
+    transform: scale(1.1);
+    border: #FB7116 solid 5px;
+}

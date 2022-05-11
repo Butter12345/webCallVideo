@@ -1,0 +1,54 @@
+.Appel{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.FenAppel{
+    margin: 0;
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.Emetteur{
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    border: 2px brown solid;
+}
+.EmetteurVideo{
+    width: 100%;
+    height: 80%;
+}
+#offer{
+    width: 98%;
+}
+.Recepteur{
+    position: absolute;
+    right: 2px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.RecepteurVideo{
+    width: 100%;
+    height: 80%;
+}
+
+#incomming{
+    width: 99.5%;
+}
+
+#recevoir{
+    font-family: Arial;
+    font-size: large;
+    width: 100px;
+    height: 30px;
+}

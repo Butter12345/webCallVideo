@@ -1,0 +1,29 @@
+.Controller{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FB7116;
+}
+
+.Controller i{
+    color: white;
+    border: 5px solid white;
+    border-radius:30px;
+    padding: 5px;
+    cursor: pointer;
+    width: 55%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Controller i:hover{
+    transform: scale(1.1);
+}
+
+.Controller i:first-child{
+    padding: 5px 8px;
+}
